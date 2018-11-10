@@ -6,4 +6,7 @@ open module recipe.web.ui {
     requires thymeleaf.spring5;
     requires thymeleaf;
     exports com.epm.recipe.web_ui.config;
+
+    requires spring.security.config;
+    requires spring.security.core;
 }
